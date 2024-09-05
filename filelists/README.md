@@ -19,5 +19,5 @@
 ## Data
 * The run number used for PPG04 is 23745. The most current production for run 2023 calo data is build `ana412` production `2023p015`. The filelists can be genrated with the `CreateDataLists.py` script like this:
 ```bash
-    python3 CreateDataLists.py --r 23745 -b ana412 -d 2023p015
+    python3 CreateDataLists.py -r 23745 -b ana412 -d 2023p015
 ```
